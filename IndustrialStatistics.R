@@ -14,10 +14,8 @@ set.seed(108)
 # A two-way contingency table of categorical nominal variables Purchase and STORE
 round(addmargins(prop.table(table(Purchase,STORE)))*100,2)
 
-#H0: The distribution of purchases of two types of orange juice is the same across all the stores (Purchase
-and STORE are independent)
-#H1: There is a significant difference in the distribution of purchases of two types of orange juice across the
-stores (Purchase and STORE are dependent)
+#H0: The distribution of purchases of two types of orange juice is the same across all the stores (Purchase and STORE are independent)
+#H1: There is a significant difference in the distribution of purchases of two types of orange juice across the stores (Purchase and STORE are dependent)
 chisq.test(table(STORE,Purchase))
 
 # Use the classification tree model with maximum depth level of 2
