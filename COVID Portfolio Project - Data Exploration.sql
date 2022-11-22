@@ -8,7 +8,7 @@ FROM PortfolioProject..CovidDeaths
 order by 1,2
 
 -- Looking at Total Cases vs Total Deaths
--- Likelihood of dying if you contract covid in your country
+-- Likelihood of dying if you contract Covid in your country
 
 SELECT Location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 FROM PortfolioProject..CovidDeaths
