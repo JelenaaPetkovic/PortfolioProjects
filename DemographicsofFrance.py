@@ -1,3 +1,7 @@
+"""
+Data set contains 18 regions of France and 88 features. The goal is to perform Comparison of the regions, Statistics for whole France, Map visualization.
+Libraries used: Numpy, Pandas, Matplotlib, Seaborn, Cartopy 
+"""
 import os
 import numpy as np
 import pandas as pd
