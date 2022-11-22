@@ -1,5 +1,5 @@
 """"
-The goal is to predict whether a patient is likely to have a diabetes based on different health parameters.
+In this project we implement the kNN algorithm on the Pima Indians Diabetes dataset in order to predict whether a patient is likely to have a diabetes.
 Skills used: Understanding the data and dealing with missing values, Normalization of the data, Implementation of the kNN algorithm, Applying the cross-validation to infer accuracy
 
 """
