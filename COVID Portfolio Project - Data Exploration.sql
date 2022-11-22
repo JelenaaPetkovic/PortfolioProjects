@@ -7,7 +7,7 @@ SELECT Location, date, total_cases, new_cases, total_deaths, population
 FROM PortfolioProject..CovidDeaths
 order by 1,2
 
--- Looking at Total Cases vs Total Deaths
+-- Looking at the Total Cases vs Total Deaths
 -- Likelihood of dying if you contract Covid in your country
 
 SELECT Location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
@@ -17,7 +17,6 @@ order by 1,2
 
 
  --Looking at the Total Cases vs Population
- -- Shows what percentage of population got covid
  SELECT Location, date, Population, total_cases, (total_cases/population)*100 as PercentPopulationInfected
 FROM PortfolioProject..CovidDeaths
 Where location like '%Serbia%'
